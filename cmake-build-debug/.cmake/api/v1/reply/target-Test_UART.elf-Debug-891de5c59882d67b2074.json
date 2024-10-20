@@ -151,23 +151,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Core/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "CXX",
@@ -246,23 +246,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Core/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -372,23 +372,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Core/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "G:/RM_Files/Test_UART/Drivers/CMSIS/Include"
+					"path" : "F:/RM_Files_Old/Test_UART/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -413,7 +413,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=G:/RM_Files/Test_UART/cmake-build-debug/Test_UART.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=F:/RM_Files_Old/Test_UART/cmake-build-debug/Test_UART.map",
 				"role" : "flags"
 			},
 			{
@@ -438,7 +438,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "G:/RM_Files/Test_UART/STM32F427IIHX_FLASH.ld",
+				"fragment" : "F:/RM_Files_Old/Test_UART/STM32F427IIHX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

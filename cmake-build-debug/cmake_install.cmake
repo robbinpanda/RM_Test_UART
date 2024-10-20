@@ -1,4 +1,4 @@
-# Install script for directory: G:/RM_Files/Test_UART
+# Install script for directory: F:/RM_Files_Old/Test_UART
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/RM_Files/Test_UART/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/RM_Files_Old/Test_UART/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

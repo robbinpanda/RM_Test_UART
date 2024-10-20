@@ -6,19 +6,19 @@
 # compile CXX with C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IG:\RM_Files\Test_UART\Core\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IG:\RM_Files\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IG:\RM_Files\Test_UART\Drivers\CMSIS\Include
+ASM_INCLUDES = -IF:\RM_Files_Old\Test_UART\Core\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Include
 
 ASM_FLAGS = -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IG:\RM_Files\Test_UART\Core\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IG:\RM_Files\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IG:\RM_Files\Test_UART\Drivers\CMSIS\Include
+C_INCLUDES = -IF:\RM_Files_Old\Test_UART\Core\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Include
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
 CXX_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
 
-CXX_INCLUDES = -IG:\RM_Files\Test_UART\Core\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IG:\RM_Files\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IG:\RM_Files\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IG:\RM_Files\Test_UART\Drivers\CMSIS\Include
+CXX_INCLUDES = -IF:\RM_Files_Old\Test_UART\Core\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc -IF:\RM_Files_Old\Test_UART\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IF:\RM_Files_Old\Test_UART\Drivers\CMSIS\Include
 
 CXX_FLAGS = -g -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
